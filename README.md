@@ -1,6 +1,23 @@
 # myplaygound - README.md
 
-...
+## BEST USE proposal
+
+### external urls                    -> use absolute pathes
+[Google.de](https://www.google.de)
+
+### repo markdown to markdown links  -> use relative pathes
+[Getting started...](Getting_started.md)<br>
+[a description in a subfolder...](subfolder/description.md)<br>
+
+### repo markdown to wiki links      -> use 'blob/main'-relative pathes
+use <b><i>../../</i></b> to move up to repo-root and add <b><i>wiki</i></b>/<i>wiki/folder/structure/to.md></i><br>
+[My wiki - Home - rel works from main](../../wiki/Home)<br>
+[My wiki - Page 1 - rel works from main](../../wiki/Page-1)<br>
+
+
+----------------------------------------------------------
+<br><br>
+----------------------------------------------------------
 
 ## funktioniert
 
@@ -34,13 +51,15 @@
 
 ## to be checked
 
-
 ## funktioniert nicht
 [My wiki no .md](wiki/Home)<br>
 [My wiki](wiki/Home.md)<br>
 [Getting started... no .md](Getting_started)<br>
 [Getting started... no .md (full path)](https://github.com/Shinobi-Warrior/myplayground/Getting_started)
 [Getting started... (full path no branch info)](https://github.com/Shinobi-Warrior/myplayground/Getting_started.md)
+[My wiki - repo absolute?](/wiki/Home)<br>
+[My wiki - repo absolute?](~/wiki/Home)<br>
+
 
 
 ## wiki page only linking
