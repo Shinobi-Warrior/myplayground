@@ -6,9 +6,9 @@
 
 [Google.de](https://www.google.de)
 
-[Getting started...] (Getting_started.md)<br>
-[Getting started... (full path)](https://github.com/Shinobi-Warrior/myplaygound/Getting_started.md)
+[Getting started...](Getting_started.md)<br>
 
+[a description...](subfolder/description.md)<br>
 
 
 ## wiki page only linking
@@ -23,3 +23,5 @@
 
 [Getting started... no .md](Getting_started)<br>
 [Getting started... no .md (full path)](https://github.com/Shinobi-Warrior/myplaygound/Getting_started)
+
+[Getting started... (full path)](https://github.com/Shinobi-Warrior/myplaygound/Getting_started.md)
