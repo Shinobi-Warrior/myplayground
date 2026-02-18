@@ -10,7 +10,7 @@
 [a description in a subfolder...](subfolder/description.md)<br>
 
 ### repo markdown to wiki links      -> use 'blob/main'-relative pathes
-use <b><i>../../</i></b> to move up to repo-root and add <b><i>wiki</i></b>/<i>wiki/folder/structure/to.md></i><br>
+use <b><i>../../</i></b> to move up to repo-root and add <b><i>wiki</i></b>/<i>folder/structure/to/wiki-page></i><br>
 [My wiki - Home - rel works from main](../../wiki/Home)<br>
 [My wiki - Page 1 - rel works from main](../../wiki/Page-1)<br>
 
