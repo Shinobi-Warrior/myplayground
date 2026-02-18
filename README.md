@@ -18,13 +18,17 @@
 [a description in a subfolder... (full path / task/main/test_wiki)](https://github.com/Shinobi-Warrior/myplayground/blob/task/main/test_wiki/subfolder/description.md)
 
 
-### linking to wiki
-[My wiki - works from main](../../wiki/Home)<br>
-[My wiki - works from task/main/test_wiki](../../../../wiki/Home)<br>
-[My wiki - Home](https://github.com/Shinobi-Warrior/myplayground/wiki/Home)<br>
-[My wiki - Page 1](https://github.com/Shinobi-Warrior/myplayground/wiki/Page-1)<br>
+### linking to wiki (page name without .md)
+[My wiki - Home - rel works from main](../../wiki/Home)<br>
+[My wiki - Page 1 - rel works from main](../../wiki/Page-1)<br>
+[My wiki - Home - abs ](https://github.com/Shinobi-Warrior/myplayground/wiki/Home)<br>
+[My wiki - Page 1 - abs](https://github.com/Shinobi-Warrior/myplayground/wiki/Page-1)<br>
 
-### link to wiki: opens raw file
+#### functional, but depending on branch name
+[My wiki - Home - rel works from task/main/test_wiki](../../../../wiki/Home)<br>
+[My wiki - Page 1 - rel works from task/main/test_wiki](../../../../wiki/Page-1)<br>
+
+### link to wiki with .md suffix: opens raw file
 [My wiki (full path)](https://github.com/Shinobi-Warrior/myplayground/wiki/Home.md)<br><br>
 
 
